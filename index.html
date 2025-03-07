@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junisco Networking Institute</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #28a745; color: white; padding: 20px; text-align: center; position: relative; } /* Changed to green */
+        nav { background: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; text-align: center; }
+        .container h2 { font-size: 1.5em; }
+        .container p { font-size: 1.2em; }
+        .container ul { list-style-type: none; padding: 0; }
+        .container ul li { font-size: 1.2em; color: #28a745; margin: 5px 0; } /* Changed to green */
+        .footer { background: #28a745; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; } /* Changed to green */
+        .course-images img { width: 200px; height: auto; margin: 10px; }
+        .contact-info { position: absolute; top: 20px; right: 20px; text-align: right; }
+        .courses-container { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .course-section { flex: 1; min-width: 200px; margin: 10px; }
+        .course-section h3 { font-size: 1.8em; } /* Increased font size for section headers */
+        .logo { position: absolute; top: 20px; left: 20px; width: 150px; height: auto; } /* Adjust size as needed */
+        .side-image { position: absolute; top: 50%; transform: translateY(-50%); width: 100px; height: auto; } /* Adjust size as needed */
+        .side-image.left { left: 0; }
+        .side-image.right { right: 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/cisco-logo.jpg" alt="Cisco Logo" class="logo">
+        <h1>Junisco Networking Institute</h1>
+        <p>Empowering Students with Advanced Networking & Automation Skills</p>
+        <div class="contact-info">
+            <p>Phone: 8897808535, 9686607588</p>
+            <p>Email: tpnenimanoj@gmail.com</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#address">Address Info</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Junisco Networking Institute is dedicated to providing top-quality education in networking, automation, and IT infrastructure.</p>
+    </div>
+    <div class="container" id="courses">
+        <h2>Courses Offered</h2>
+        <div class="courses-container">
+            <div class="course-section">
+                <h3>CISCO</h3>
+                <ul>
+                    <li>CCNA</li>
+                    <li>CCNP</li>
+                    <li>CCIE</li>
+                </ul>
+            </div>
+            <div class="course-section">
+                <h3>Juniper Network</h3>
+                <ul>
+                    <li>JNCIA</li>
+                    <li>JNCIS-ENT</li>
+                    <li>JNCIP-ENT</li>
+                    <li>JNCIS-SP</li>
+                    <li>JNCIP-SP</li>
+                </ul>
+            </div>
+            <div class="course-section">
+                <h3>Automation</h3>
+                <ul>
+                    <li>LINUX</li>
+                    <li>PYTHON</li>
+                    <li>VMWARE</li>
+                    <li>NETWORK AUTOMATION</li>
+                </ul>
+            </div>
+        </div>
+        <div class="course-images">
+            <img src="images/router.jpg" alt="Router">
+            <img src="images/switch.jpg" alt="Switch">
+        </div>
+    </div>
+    <div class="container" id="faculty">
+        <h2>Our Faculty</h2>
+        <p><strong>T. Manoj Kumar</strong> - 10 years of experience in the Networking Industry, currently working as an Automation Engineer.</p>
+    </div>
+    <div class="container" id="admissions">
+        <h2>Admissions</h2>
+        <p>Both offline and online classes are available. Starting from <strong>15/03/2025</strong>.</p>
+        <p>Labs are available for practice.</p>
+        <p>100% job support with proper guidance given to students.</p>
+    </div>
+    <div class="container" id="address">
+        <h2>Address Info</h2>
+        <p>Address: #143, Lawyers Colony, Kattamanchi, Chittoor, 517001</p>
+        <p>Email: tpnenimanoj@gmail.com</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Junisco Networking Institute. All Rights Reserved.</p>
+    </div>
+    <img src="images/copper.jpg" alt="Copper" class="side-image left">
+    <img src="images/optics.jpg" alt="Optics" class="side-image right">
+</body>
+</html>
